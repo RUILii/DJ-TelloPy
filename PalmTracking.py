@@ -111,7 +111,6 @@ try:
                 print(f"检测到剪刀手，已自动拍照并保存为 {photo_name}")
                 time.sleep(1.5)  # 拍照后延迟，防止连续多次拍照
 
-
             # --- 应用平滑的“比例控制”算法 ---
             frame_cx, frame_cy = w // 2, h // 2
             offset_x = palm_cx - frame_cx
